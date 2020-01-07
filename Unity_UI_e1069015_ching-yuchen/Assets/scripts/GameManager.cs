@@ -35,7 +35,7 @@ public class GameManager : MonoBehaviour
         //yield return new WaitForSeconds(1);
         //print("TEST 2");
 
-        AsyncOperation ao = SceneManager.LoadSceneAsync("遊戲場景");
+        AsyncOperation ao = SceneManager.LoadSceneAsync("遊戲場景-2");
         ao.allowSceneActivation = false;
 
         while (ao.isDone == false)
